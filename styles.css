@@ -1,0 +1,32 @@
+*{background-color: #7dead3;}
+
+html, body, canvas {display: bloc; padding: 0; margin: 0 auto;} /*this creates 0 padding between the body and html*/
+
+canvas {background-color: Black}
+
+html, body{width:  100%;
+  height: 100%;
+  margin: 0;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.input {
+    background-color: White; /* Green */
+    border-style: solid;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

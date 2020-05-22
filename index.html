@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>L-Systems</title>
+        <link rel = "stylesheet" type = "text/css" href="styles.css">
+    </head>
+
+    <body>
+        <canvas id="mycanvas" height = "600" width = "600"></canvas>
+
+        <!-- Number input box for number of levels for L-System -->
+        <button class = "button" onclick = "takeData()"> DO</button>
+        <input class = "input" type = "number" id = "levels" name = "levels"> </input>
+
+        <button class = "button" onclick = "randomise()"> Randomise</button>
+        <button class = "button" onclick = "mouseAngle = !mouseAngle"> Click to toggle between using the mouse for an angle</button>
+
+        <p id = "angleMode"> Angle mode: Fixed</p>
+    </body>
+
+<script src = "buttons.js"></script>
+<script src = "class.js"></script>
+<script src = "app.js"></script>
+
+
+
+</html>
